@@ -171,3 +171,13 @@ form select{
     background-color: white;
     padding: 1.5rem;
 }
+
+.order-form button{
+    width: 9rem;
+    height: 2.625rem;
+    border-radius: 0.75rem;
+    margin-top: 1.688rem;
+    background-color: #FFE4A3;
+    color: #BC0606;
+    border: none;
+}
