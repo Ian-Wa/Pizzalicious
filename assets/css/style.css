@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Overlock:wght@700&display=swap');
+
+*,::before,::after{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+h1,h2,h3,p,ul{
+    margin: 0;
+}
+
+ul{
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.navigation{
+    max-width: 1024px;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li{
+    margin-right: 2.94rem;
+}
+
+.nav-list{
+    margin-bottom: 0;
+}
+
+nav a{
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.88rem;
+   
+}
