@@ -143,10 +143,23 @@ nav a{
     margin-top: 3.625rem;
 }
 
+#first{
+    margin: 0;
+}
+
 .your-order h2{
     text-align: center;
     font-family:  'Overlock', cursive;
     font-size: 2.5rem;
+    margin-bottom: 3.063rem;
+}
+
+.order-details{
+    display: flex;
+}
+
+form{
+    margin-right: 11.75rem;
 }
 
 form select{
