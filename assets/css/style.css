@@ -193,6 +193,10 @@ footer{
     margin-top: 4.625rem;
 }
 
+.foo{
+    display: flex;
+}
+
 .foo-1{
     margin-left: 16.188rem;
 }
@@ -203,4 +207,24 @@ footer{
 
 .socials i{
     margin-right: 2.5rem;
+}
+
+.foo-2{
+    margin-left: 14.007rem;
+}
+
+.foo-2 p{
+    margin: 0;
+    font-size: 0.875rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+}
+
+#p-foo{
+    text-align: center;
+    margin-top: 2.813rem;
+    color: #FFC58A;
+    font-size: 0.875rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
 }
