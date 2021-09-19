@@ -19,7 +19,7 @@ ul{
 }
 
 a{
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 img{
@@ -46,7 +46,9 @@ li{
 nav a{
     font-family: 'Nunito', sans-serif;
     font-size: 0.88rem;
-   color: #E36712 !important;
+    color: #E36712 !important;
+    cursor: pointer;
+
 }
 
 .home{
@@ -89,6 +91,7 @@ nav a{
 
 .About_Us{
     margin-top: 3rem;
+    height: auto;
 }
 
 .about-details{
@@ -122,4 +125,19 @@ nav a{
     background-color: #BC0606;
     color: white;
     border: none;
+}
+
+.varieties{
+    margin-top: 5.875rem;
+    height: auto;
+}
+
+.varieties h2{
+    text-align: center;
+    margin-bottom: 1.188rem;
+    font-family: 'Overlock', cursive;
+}
+
+.your-order{
+    margin-top: 3.625rem;
 }
