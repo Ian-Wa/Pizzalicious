@@ -48,3 +48,41 @@ nav a{
     font-size: 0.88rem;
    
 }
+
+.home{
+    height: 100vh;
+}
+
+.home-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home_content{
+    margin-right: 8.609rem;
+}
+
+.home_content p{
+    font-family: 'Overlock', cursive;
+    font-size: 4rem;
+    line-height: 4.88rem;
+    width: 24.703rem;
+    font-weight: 700;
+    height: 11.757rem;
+}
+
+.home_content button{
+    width: 12.319rem;
+    height: 4.106;
+    padding: 1.173rem;
+    border-radius: 0.313rem;
+    background-color: #BC0606;
+    color: white;
+    border: none;
+}
+
+.home_img img{
+    position: relative;
+    right: 0rem;
+}
