@@ -189,6 +189,15 @@ form select{
     font-size: 1rem;
 }
 
+#none{
+    margin-top: 0;
+}
+
+.order-content{
+    padding-top: 1rem;
+    /* display: none; */
+}
+
 footer{
     margin-top: 4.625rem;
 }
