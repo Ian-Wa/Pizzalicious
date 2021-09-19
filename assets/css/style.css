@@ -148,3 +148,13 @@ nav a{
     font-family:  'Overlock', cursive;
     font-size: 2.5rem;
 }
+
+form select{
+    display: block;
+    width: 17.563rem;
+    margin-top: 3.063rem;
+    height: 4.375rem;
+    border-radius: 0.75rem;
+    background-color: white;
+    padding: 1.5rem;
+}
