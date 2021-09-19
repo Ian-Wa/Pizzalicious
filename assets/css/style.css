@@ -46,7 +46,7 @@ li{
 nav a{
     font-family: 'Nunito', sans-serif;
     font-size: 0.88rem;
-   
+   color: #E36712 !important;
 }
 
 .home{
@@ -82,7 +82,44 @@ nav a{
     border: none;
 }
 
-.home_img img{
-    position: relative;
-    right: 0rem;
+#home-img{
+    
+    animation: rotation 2s infinite linear;
+}
+
+.About_Us{
+    margin-top: 3rem;
+}
+
+.about-details{
+    display: flex;
+}
+
+.about_img{
+    margin-right: 15.643rem;
+}
+
+.about_content h2{
+    font-family: 'Overlock', cursive;
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-top: 3rem;
+}
+
+.about_content p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem;
+    margin-top: 3rem;
+    line-height: 1.4rem;
+    width: 36.688rem;
+}
+
+.about_content button{
+    width: 9rem;
+    height: 2.625rem;
+    padding: 0.75rem 1.688rem;
+    border-radius: 0.313rem;
+    background-color: #BC0606;
+    color: white;
+    border: none;
 }
