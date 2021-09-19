@@ -183,3 +183,8 @@ form select{
     color: #BC0606;
     border: none;
 }
+
+.order-info p{
+    font-family:  'Nunito', sans-serif;
+    font-size: 1rem;
+}
