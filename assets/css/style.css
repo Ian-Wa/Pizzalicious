@@ -142,3 +142,7 @@ nav a{
 .your-order{
     margin-top: 3.625rem;
 }
+
+.your-order h2{
+    text-align: center;
+}
