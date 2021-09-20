@@ -1,5 +1,5 @@
 # Pizzalicious
-####This website showcases various pizzas that are delivered countrywide at reasonable prices.
+###This website showcases various pizzas that are delivered countrywide at reasonable prices.
 #### By **Ian Wanjira**
 ## Technologies Used
 This website was built using HTML, CSS, jQuery and Bootstrap.
