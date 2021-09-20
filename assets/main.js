@@ -10,25 +10,10 @@ function Pizza(variety,size,crust,toppings,total){
     this.total = total;
 }
 
-var rotation = function (){
-    $("#home-img").rotate({
-       angle:0, 
-       animateTo:360, 
-       callback: rotation,
-       easing: function (x,t,b,c,d){        // t: current time, b: begInnIng value, c: change In value, d: duration
-           return c*(t/d)+b;
-       }
-    });
- }
- rotation();
-
-
 $(document).ready(function(){
     
     $('#order_button').click(function(){
         getCheckedBoxes();
-    //     sizePrice = parseInt(getCheckedBoxes('size'));
-    //    console.log(varietyItem);
     })
 
     var getCheckedBoxes = function(){

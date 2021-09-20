@@ -160,6 +160,11 @@ nav a{
     margin-top: 3rem;
 }
 
+#pizza-selection{
+    font-family:'Overlock', cursive;
+    font-size: 1.3rem;
+}
+
 .headline{
     text-align: center;
 }
@@ -168,18 +173,6 @@ nav a{
 form{
     margin-right: 11.75rem;
 }
-
-/* form select{
-    display: block;
-    width: 17.563rem;
-    margin-top: 3.063rem;
-    height: 4.375rem;
-    border-radius: 0.75rem;
-    background-color: white;
-    padding: 1.5rem;
-    font-family:  'Nunito', sans-serif;
-    font-weight: bold;
-} */
 
 .order_button{
     width: 9rem;
