@@ -154,15 +154,22 @@ nav a{
     margin-bottom: 3.063rem;
 }
 
-.order-details{
+.pizza_selection{
     display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
 }
+
+.headline{
+    text-align: center;
+}
+
 
 form{
     margin-right: 11.75rem;
 }
 
-form select{
+/* form select{
     display: block;
     width: 17.563rem;
     margin-top: 3.063rem;
@@ -172,16 +179,17 @@ form select{
     padding: 1.5rem;
     font-family:  'Nunito', sans-serif;
     font-weight: bold;
-}
+} */
 
-.order-form button{
+.order_button{
     width: 9rem;
     height: 2.625rem;
     border-radius: 0.75rem;
-    margin-top: 1.688rem;
+    margin-top: 2.688rem;
     background-color: #FFE4A3;
     color: #BC0606;
     border: none;
+   margin-left: 40%;
 }
 
 .order-info p{
