@@ -197,6 +197,10 @@ form{
     font-size: 1rem;
 }
 
+.order-content{
+    display: none;
+}
+
 #none{
     margin-top: 0;
 }
@@ -204,6 +208,22 @@ form{
 .order-content{
     padding-top: 1rem;
     /* display: none; */
+}
+
+.btn{
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+#pizza_total{
+    text-align: center;
+    margin-bottom: 1.188rem;
+    font-family: 'Overlock', cursive;
+    font-size: 2.5rem;
+}
+
+#delivery-info{
+    display: none;
 }
 
 footer{

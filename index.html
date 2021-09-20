@@ -125,19 +125,19 @@
                             <div class="pizza">
                                 <p>Select Pizza Variety</p>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <input class="form-check-input" type="checkbox" value="BBQ Chicken Pizza" id="chicken" name="variety">
                                     <label class="form-check-label" for="flexCheckDefault">
                                       BBQ Chicken Pizza
                                     </label>
                                   </div>
                                   <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <input class="form-check-input" type="checkbox" value="Veggie Pizza" id="veggie" name="variety">
                                     <label class="form-check-label" for="flexCheckDefault">
                                       Veggie Pizza
                                     </label>
                                   </div>
                                   <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <input class="form-check-input" type="checkbox" value="Hawaiian Pizza" id="hawaiian" name="variety">
                                     <label class="form-check-label" for="flexCheckDefault">
                                      Hawaiian Pizza
                                     </label>
@@ -146,19 +146,19 @@
                             <div class="pizza">
                                 <p>Select Pizza Size</p>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <input class="form-check-input" type="checkbox" value="small" id="small" name="size">
                                     <label class="form-check-label" for="flexCheckDefault">
                                       Small   ---@  Ksh 650
                                     </label>
                                   </div>
                                   <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <input class="form-check-input" type="checkbox" value="medium" id="medium" name="size">
                                     <label class="form-check-label" for="flexCheckDefault">
                                       Medium  ---@  Ksh 850
                                     </label>
                                   </div>
                                   <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <input class="form-check-input" type="checkbox" value="large" id="large" name="size">
                                     <label class="form-check-label" for="flexCheckDefault">
                                       Large  ---@  Ksh 1350
                                     </label>
@@ -167,19 +167,19 @@
                             <div class="pizza">
                                 <p>Select Pizza Crust</p>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <input class="form-check-input" type="checkbox" value="stuffed" id="stuffed" name="crust">
                                     <label class="form-check-label" for="flexCheckDefault">
                                       Stuffed  ---@  Ksh 100
                                     </label>
                                   </div>
                                   <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <input class="form-check-input" type="checkbox" value="cheese" id="cheese" name="crust">
                                     <label class="form-check-label" for="flexCheckDefault">
                                       Cheese  ---@ Ksh 150
                                     </label>
                                   </div>
                                   <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <input class="form-check-input" type="checkbox" value="cracker" id="cracker" name="cracker">
                                     <label class="form-check-label" for="flexCheckDefault">
                                       Cracker  ---@ Ksh 50
                                     </label>
@@ -188,19 +188,19 @@
                              <div class="pizza">
                                 <p>Select Pizza Toppings</p>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <input class="form-check-input" type="checkbox" value="pepperoni" id="pepperoni" name="toppings">
                                     <label class="form-check-label" for="flexCheckDefault">
                                       Pepperoni  ---@ Ksh 200
                                     </label>
                                   </div>
                                   <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <input class="form-check-input" type="checkbox" value="bacon" id="bacon" name="toppings">
                                     <label class="form-check-label" for="flexCheckDefault">
                                       Bacon  --- @ Khs 250
                                     </label>
                                   </div>
                                   <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <input class="form-check-input" type="checkbox" value="sausage" id="sausage" name="toppings">
                                     <label class="form-check-label" for="flexCheckDefault">
                                       Sausage  --- @ Khs 100
                                     </label>
@@ -208,7 +208,7 @@
                             </div>
                         </div>
                        
-                        <button href="" class="order_button">ORDER</button>
+                        <button href="" class="order_button" id ="order_button">ORDER</button>
                         <div class="order-content">
                             <div id="your-order">
                                 <table class="table table-sm pizzatable">
@@ -223,27 +223,28 @@
                                     </thead>
                                     <tbody id="orders-made">
                                         <tr>
-                                        <td id="pizza_type"></td>
-                                        <td id="pizza_size"></td>
-                                        <td id="pizza_crust"></td>
-                                        <td id="pizza_toppings"></td>
-                                        <td id="totals"></td>
+                                            <td id="pizza_type"></td>
+                                            <td id="pizza_size"></td>
+                                            <td id="pizza_crust"></td>
+                                            <td id="pizza_toppings"></td>
+                                            <td id="totals"></td>
                                         </tr>                  
                                     </tbody>
                                 </table>
                                 <p id="pizza_total"></p>
                                 <p id="total"></p> 
-                                <p id="finallmessage"></p>
+                                <p id="delivery">Delivery cost is Ksh 200</p>
+                                <p id="finalmessage"></p>
                             </div>
-                            <button class="btn btn-orange addPizza">Add Pizza</button>
-                            <button class="btn btn-orange" id="checkout">Checkout</button>
-                            <button class="btn btn-orange deliver">Home delivery</button>
+                            <button type="button" class="btn btn-warning addPizza">Add Pizza</button>
+                            <button type="button" class="btn btn-success checkout">Checkout</button>
+                            <button type="button" class="btn btn-outline-secondary delivery">Delivery</button>
                             <div class="delivery">
-                                <form action="">
+                                <form action="" id="delivery-info">
                                     <input type="text" id="name" class="form-control mb-3" placeholder="Name">
                                     <input type="number" id="phone" class="form-control mb-3" placeholder="Pnone Number">
                                     <input type="text" id="location" class="form-control mb-3" placeholder="Delivery Location">
-                                    <button class="btn btn-orange" id="final-order">Place Order</button>
+                                    <button type="button" class="btn btn-outline-success place-order">Place Order</button>
                                 </form>
                             </div>
                         </div>
